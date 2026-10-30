@@ -1,0 +1,23 @@
+[project]
+name = "slide-atelier"
+version = "0.0.1"
+description = "一鍵把講稿和照片變成 3 個版本的繁體中文簡報（引擎）"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "mac: 需要模型或 Apple Silicon，只在 Mac 上手動執行",
+  "live: 真的呼叫 agy，會消耗額度，執行前先問專案負責人",
+]
+addopts = "-m 'not mac and not live'"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
