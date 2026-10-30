@@ -2,7 +2,7 @@
 
 這份文件寫給在這個 repo 寫程式的 AI 助手（Claude Code、Antigravity 等）。
 
-> **最高權限文件**：本專案的 AGENTS、PRD、ROADMAP、TDD、SPEC 五份文件是最高權限，正本由專案負責人保管，副本在私人 repo `slide-atelier-private/docs/`。**執行每一個步驟前，都要先把這五份讀過一次。** 本檔與五份文件衝突時，以五份文件為準。
+> **最高權限文件**：本專案的 AGENTS、PRD、ROADMAP、TDD、SPEC 五份文件是最高權限，正本由專案負責人保管，副本在私人 repo `slide-atelier-private`（AGENTS.md 在根目錄，其他四份在 `docs/`）。**執行每一個步驟前，都要先把這五份讀過一次。** 本檔與五份文件衝突時，以五份文件為準。
 
 ## 這個 repo 的界線
 
