@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# 使用者資料與機密：永遠不進 repo
+.env
+.env.*
+SlideAtelierData/
+test-materials/
+agy-home/
+training/
+*.safetensors
+*.ckpt
+*.gguf
+*.onnx
+*.pem
+*.key
+
+# macOS
+.DS_Store
